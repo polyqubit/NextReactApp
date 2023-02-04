@@ -1,8 +1,15 @@
+import styles from '../styles/Home.module.css';
+import Link from 'next/link';
+import Head from 'next/head';
+
 export default function PostList() {
-    return <div>
+    return <>
+        <Head>
+            <title>Post List</title>
+        </Head>
         <ul>
-            <li><a href="http://localhost:3000/posts/post-1">Post 1</a></li>
+            <li><Link className={styles.entry} href="http://localhost:3000/posts/post-1">Post 12</Link></li>
         </ul>
-        <a href="http://localhost:3000">Back</a>
-    </div>
+        <Link href="/">Back</Link>
+    </>
 }

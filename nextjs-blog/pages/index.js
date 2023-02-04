@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -47,15 +48,15 @@ export default function Home() {
             </p>
           </a>
 
-          <a
-            href="http://localhost:3000/postlist"
+          <Link
+            href="/postlist"
             className={styles.card}
           >
             <h3>Posts &rarr;</h3>
             <p>
-              View list of posts currently published to this blog.
+              View list of posts currently published to this blog(currently in development).
             </p>
-          </a>
+          </Link>
         </div>
       </main>
 

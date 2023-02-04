@@ -4,16 +4,16 @@
     font-size: 50px;
 }
 
-a {
+a.entry:link {
     color: black;
     text-decoration: none;
-    font-size: 500px;
+    font-size: 50px;
 }
 
-a:visited {
+a.entry:visited {
     color: black;
     text-decoration: none;
-    font-size: 500px;
+    font-size: 50px;
 }
 
 p {
