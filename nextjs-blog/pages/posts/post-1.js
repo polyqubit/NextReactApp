@@ -9,7 +9,7 @@ export default function Post() {
             <title>Post 1</title>
         </Head>
         <h1>
-            <em>post 1</em>
+            post 1
         </h1>
         <Link href="/postlist">Back</Link>
     </Layout>;
